@@ -1,5 +1,6 @@
 # Caucúlando a Média
 print('Cálculo da Média entre duas notas')
+print('-'*32)
 n1 = float(input('Digite o valor da nota: ').replace(',','.'))
 n2 = float(input('Digite o valor da nota: ').replace(',','.'))
 
@@ -7,3 +8,4 @@ n2 = float(input('Digite o valor da nota: ').replace(',','.'))
 media = (n1 + n2) /2
 # Resultado
 print(f'A média é {media:.2f} Parabéns!') 
+print('-'*22)
